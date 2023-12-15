@@ -1,0 +1,101 @@
+#newItemsInStore{
+	display:block;
+	width:100%;
+	margin-top:2%;
+	overflow:hidden;
+	border:1px solid rgba(0,0,0,.35);
+	background: rgba(0,0,0,.05);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+#newItemsInStore>h2{
+	display:block;
+	width:100%;
+	margin:0 0 1.9%;
+	height:0;
+	padding:12px 0 30px;
+	border-bottom: dashed 1px #aaa;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	font-weight: 500;
+    font-family: Verdana, Arial, sans-serif;
+	color:rgba(0,0,0,.8);
+	background:rgba(0,0,0,.1);
+}
+
+#newItemsInStore>a{
+	border:1px solid rgba(0,0,0,.2);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	box-shadow: 3px 3px 5px 0 #888888;
+	-webkit-box-shadow: 3px 3px 5px 0 #888888;
+	-moz-box-shadow: 3px 3px 5px 0 #888888;
+	text-decoration:none;
+	width:22%;
+	height:300px;
+	margin:-.2% 0 3% 2.35%;
+	float:left;
+	position:relative;
+}
+
+#newItemsInStore>a:hover{
+	box-shadow: 1px 1px 2px 0 #888888;
+	-webkit-box-shadow: 1px 1px 2px 0 #888888;
+	-moz-box-shadow: 1px 1px 2px 0 #888888;
+	transform:translate(.5px);
+	-webkit-transform:translate(.5px);
+	-ms-transform:translate(.5px);
+	-moz-transform:translate(.5px);
+	-o-transform:translate(.5px);
+}
+
+#newItemsInStore>a:active{
+	box-shadow: 0px 0px 2px 0 #888888;
+	-webkit-box-shadow: 0px 0px 2px 0 #888888;
+	-moz-box-shadow: 0px 0px 2px 0 #888888;
+	transform:translate(.5px);
+	-ms-transform:translate(.5px);
+	-o-transform:translate(.5px);
+	-webkit-transform:translate(.5px);
+	-moz-transform:translate(.5px);
+}
+
+#newItemsInStore>a>img{
+	display:block;
+	width:92%;
+	margin:4% 0 0 4%;
+}
+
+#newItemsInStore>a>p:nth-child(2){
+	width:92%;
+	margin:5% auto 2%;
+	font-weight:700;
+	font-size:120%;
+	padding:0;
+	font: Tahoma, Helvetica, Arial, Sans-Serif;
+    color: #222;
+    text-shadow:0 1px 0 #FFFFFF;
+}
+
+#newItemsInStore>a>p:nth-child(3){
+	position: absolute;
+    display: block;
+    font-size: 140%;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 0 0;
+    bottom: 3%;
+}
+
+@media only screen and (max-width:427px){
+	#newItemsInStore>a{
+		width:47%;
+		margin:-.2% 0 3% 2%;
+	}
+}

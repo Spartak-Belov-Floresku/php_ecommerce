@@ -1,0 +1,2 @@
+[11-Aug-2016 00:11:27 UTC] PHP Fatal error:  Class 'PayPal' not found in /home/spartakkuzmin/public_html/pages/ipn.php on line 6
+[11-Aug-2016 04:05:12 UTC] PHP Fatal error:  Class 'Form' not found in /home/spartakkuzmin/public_html/classes/PayPal.php on line 383

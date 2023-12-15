@@ -1,0 +1,117 @@
+.pTitle{
+	border-top: dashed 1px #aaa;
+    margin-top: 14px;
+	padding-top: 14px;
+	font-weight:500;
+	font-family: Verdana, Arial, sans-serif;
+}
+.pcards th{
+	padding:10px 0 10px 15px;
+	font-size:14px;
+	text-align:left;
+	
+}
+.pcards th:first-child{
+	padding-left:15px;
+	color:#400;
+}
+.pcards th:last-child{
+	text-align:right;
+	padding-right:15px;
+}
+.col_30{
+	width:30%;
+}
+.percar>td{
+	padding:15px 0 15px 15px;
+	text-align:left;
+	border-bottom:1px solid #CFCFCF;
+}
+.percar>td>img{
+	width:25px;
+	box-shadow: 2px 2px 6px 0 rgba(0,0,0,.5);
+	-webkit-box-shadow: 2px 2px 6px 0 rgba(0,0,0,.5);
+	-moz-box-shadow: 2px 2px 6px 0 rgba(0,0,0,.5);
+}
+.percar>td>span{
+	font-weight:700;
+	font-size:14px;
+}
+.percar>td:first-child{
+	padding-left:30px;
+	
+}
+.percar>td:last-child{
+	text-align:right;
+	padding:20px 15px 10px 0;
+}
+.percar>td:nth-child(3){
+	padding-top:20px;
+}
+.pc{
+	float:right!important;
+}
+
+
+.cards{
+	display:block;
+	margin-bottom:15px;
+	text-align:center;
+}
+.cards>img{
+	width:180px;
+}
+.tabelCreditCard {
+	margin: 0 auto 14px;
+}
+.tabelCreditCard th{
+	width:auto;
+}
+#formcreditcards{
+	display:block;
+	width:auto;
+	text-align:center;
+}
+.month{
+	width:70px;
+}
+.year{
+	width:235px;
+}
+#cardname>option,
+#usecredit>option{
+	font-size: 14px;
+    font-weight:200;
+    font-family: Verdana, Arial, sans-serif;
+}
+#radionCheck{
+	color: #900;
+	float:left;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+@media only screen and (max-width:415px){
+	.pcards th:nth-child(3),
+	.percar>td:nth-child(3){
+		display:none;
+	}
+	.tabelCreditCard th{
+		display:none;
+	}
+	
+}
+@media only screen and (max-width:376px){
+	.pcards th:nth-child(4),
+	.percar>td:nth-child(4){
+		display:none;
+	}
+}
+@media only screen and (max-width:321px){
+	.pcards{
+		display:table;
+	}
+	.tabelCreditCard {
+		margin-left:-1%;
+	}
+}

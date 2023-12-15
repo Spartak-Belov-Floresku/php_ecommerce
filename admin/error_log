@@ -1,0 +1,4 @@
+[31-May-2017 17:41:21 UTC] PHP Warning:  Illegal string offset 'size' in /home/spartakkuzmin/public_html/admin/pages/categories/edit.php on line 40
+[31-May-2017 17:41:21 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/spartakkuzmin/public_html/admin/pages/categories/edit.php on line 40
+[31-May-2017 17:42:34 UTC] PHP Warning:  Illegal string offset 'size' in /home/spartakkuzmin/public_html/admin/pages/categories/edit.php on line 40
+[31-May-2017 17:42:34 UTC] PHP Notice:  Uninitialized string offset: 0 in /home/spartakkuzmin/public_html/admin/pages/categories/edit.php on line 40

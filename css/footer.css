@@ -1,0 +1,123 @@
+#footer{
+	display:block;
+	width: 100%;
+	margin-top: 3%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,.35);
+}
+#goTop{
+	background-image: url(../images/goTop.png);
+    background-repeat: no-repeat;
+	background-position:center;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	width:30px;
+	height:30px;
+	position:fixed;
+	bottom:10px;
+	cursor:pointer;
+	box-shadow: 3px 3px 5px 0 #888888;
+	-webkit-box-shadow: 3px 3px 5px 0 #888888;
+	-moz-box-shadow: 3px 3px 5px 0 #888888;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+	-moz-transform:scale(0);
+	-ms-transform:scale(0);
+	-o-transform:scale(0);
+	transition:.15s;
+	-webkit-transition:.15s;
+	-moz-transition:.15s;
+}
+#goTop.classGoTop{
+	background-size:100%;
+	-webkit-background-size:100%;
+	-moz-background-size:100%;
+	transform:scale(1);
+	-webkit-transform:scale(1);
+	-moz-transform:scale(1);
+	-ms-transform:scale(1);
+	-o-transform:scale(1);
+}
+#goTop:active{
+	box-shadow: 1px 1px 0 0 #888888;
+	-webkit-box-shadow: 1px 1px 0 0 #888888;
+	-moz-box-shadow: 1px 1px 0 0 #888888;
+	transform:translate(1px);
+	-ms-transform:translate(1px);
+	-o-transform:translate(1px);
+	-webkit-transform:translate(1px);
+	-moz-transform:translate(1px);
+}
+#footerMenu{
+	display:block;
+	width:100%;
+}
+#footerMenu>ul:first-child{
+	margin-left:3%;
+}
+#footerMenu>ul{
+	float:left;
+	list-style-type: none;
+}
+#footerMenu>ul:first-child{
+	margin-left:2%;
+}
+#footerMenu>ul>li{
+	display:inline-block;
+	padding-right:25px;
+	text-align:left;
+	line-height:20px;
+}
+#footerMenu>ul>li>a{
+	text-decoration:none;
+	font-size:12px;
+	font-weight:700;
+	font-family: Verdana, Arial, sans-serif;
+}
+#footerMenu>ul>li>a:hover{
+	color:#f00;
+}
+#footerMenu>ul>li>a.activeFooter{
+	color:#f00;
+	text-shadow: 3px 3px 1px rgba(0,0,0,.35);
+}
+#footerCopyRights{
+	padding:0;
+	border-top: dashed 1px #aaa;
+	width:95%;
+	padding-top:20px;
+	margin:10px auto 10px;
+	font-size:14px;
+	font-weight:700;
+	text-align:center;
+	font-family: Verdana, Arial, sans-serif;
+}
+.paypallogo{
+	float:right;
+	width:250px;
+	margin:0 3% 5px 0;
+}
+.paypallogo>img{
+	display:block;
+	margin:0 auto;
+	width:250px;
+}
+@media only screen and (max-width:416px){
+	#footerMenu>ul{
+		float:none;
+		margin-left:auto!important;
+		margin-right:auto;
+	}
+	.paypallogo{
+		float:none;
+		display:block;
+		width:100%;
+		margin:25px auto 10px;
+	}
+}

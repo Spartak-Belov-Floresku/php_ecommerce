@@ -1,0 +1,14 @@
+.tbl_repeat th{
+	padding:3px 10px;
+}
+@media only screen and (max-width:321px){
+	.tbl_repeat{
+		width:100%;
+		display:block;
+	}
+	.tbl_repeat>.orders,
+	.tbl_repeat>.orders>tr{
+		width:100%;
+		display:block;
+	}
+}

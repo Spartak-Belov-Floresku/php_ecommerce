@@ -1,0 +1,56 @@
+#loginForm,
+#registeredForm{
+	display:block;
+	text-align:center;
+	width:auto;
+}
+#recoverpassword{
+	text-decoration:none;
+	font-weight:600;
+	font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+	color:#900;
+	margin-top:5px;
+	float:right;
+}
+.loginTable,
+.registeredTable{
+	margin:0 auto 14px;
+}
+.tbl_insert th{
+	padding:3px 10px 3px 0;
+	width:120px;
+}
+.loginBt,
+.registeredBt{
+	width:auto;
+	float:left;
+}
+.loginBt>input,
+.registeredBt>input{
+	padding:2px 10px;
+}
+.abbr{
+	float:right;
+}
+@media only screen and (max-width:415px){
+	.loginTable th,
+	.registeredTable th,
+	#checkout th{
+		display:none;
+	}
+	.loginBt,
+	.registeredBt,
+	#checkoutBt{
+		float:right;
+	}
+	#recoverpassword{
+		float:left;
+	}
+}
+@media only screen and (max-width:322px){
+	.loginTable,
+	.registeredTable,
+	#checkout{
+		margin-left:-1%;
+	}
+}

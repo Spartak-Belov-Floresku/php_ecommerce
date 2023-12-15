@@ -1,0 +1,191 @@
+#reviewblock{
+	margin-top:5%;
+	padding:.5%;
+	width:auto;
+	background: rgba(0,0,0,.05);
+	border:1px solid rgba(0,0,0,.35);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	padding-bottom:8%;
+}
+#reviewblock>h2{
+	border-bottom: dashed 1px #aaa;
+	margin-bottom: 6%;
+}
+#reviewblock>a{
+	border:1px solid rgba(0,0,0,.2);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	box-shadow: 3px 3px 5px 0 #888888;
+	-webkit-box-shadow: 3px 3px 5px 0 #888888;
+	-moz-box-shadow: 3px 3px 5px 0 #888888;
+	text-decoration:none;
+	width:30%;
+	margin:0 0 7% 2.5%;
+	float:left;
+	position:relative;
+}
+#reviewblock>a:hover{
+	box-shadow: 1px 1px 2px 0 #888888;
+	-webkit-box-shadow: 1px 1px 2px 0 #888888;
+	-moz-box-shadow: 1px 1px 2px 0 #888888;
+	transform:translate(.5px);
+	-o-transform:translate(.5px);
+	-ms-transform:translate(.5px);
+	-webkit-transform:translate(.5px);
+	-moz-transform:translate(.5px);
+}
+#reviewblock>a:active{
+	box-shadow: 0px 0px 2px 0 #888888;
+	-webkit-box-shadow: 0px 0px 2px 0 #888888;
+	-moz-box-shadow: 0px 0px 2px 0 #888888;
+	transform:translate(.5px);
+	-ms-transform:translate(.5px);
+	-o-transform:translate(.5px);
+	-webkit-transform:translate(.5px);
+	-moz-transform:translate(.5px);
+}
+#reviewblock>a>img{
+	display:block;
+	width:92%;
+	margin:4% 0 0 4%;
+}
+#reviewblock>a>p{
+	position:absolute;
+	display:block;
+	font-size:80%;
+	width:100%;
+	padding:0;
+	margin:0 0 0 0;
+	bottom:2%;
+}
+#popupInfo{
+	cursor:pointer;
+	background:rgba(0,0,0,.5);
+	position:fixed;
+	position:block;
+	opacity:0;
+	z-index:1000;
+}
+#popupInfo.addLoading{
+	transition:0s;
+	background-image: url(../images/loading.gif);
+    background-repeat: no-repeat;
+	background-size:10%;
+	background-position:center;
+}
+#inPopupInfo{
+	display:block;
+	background: rgba(0,0,0,.05);
+	border:2px solid rgba(0,0,0,.5);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	background:white;
+	margin:0 auto;
+	opacity:0;
+	cursor:default;
+	overflow:auto;
+	box-shadow: 7px 7px 18px 0 rgb(0,0,0);
+	-webkit-box-shadow: 7px 7px 18px 0 rgb(0,0,0);
+	-moz-box-shadow: 7px 7px 18px 0 rgb(0,0,0);
+}
+#closePopupInfo{
+	position:fixed;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	background-image: url(../images/closebtn.png);
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+    background-repeat: no-repeat;
+	z-index:100;
+}
+#inPopupInfo>a:nth-child(2){
+	font-size:130%;
+	font-weight:900;
+	text-shadow: 2px 2px 1px rgba(0,0,0,.2);
+	color:#a00;
+	width:80%;
+	margin:0 auto;
+	padding:0;
+	padding-bottom:7px;
+	text-align:center;
+	margin-top:5%;
+	display:block;
+	text-decoration:none;
+	border-bottom:1px dashed #a00;
+	transition:.2s;
+	-webkit-transition:.2s;
+	-moz-transition:.2s;
+}
+#inPopupInfo>a:nth-child(2):hover{
+	text-shadow: 4px 4px 0 rgba(0,0,0,.3);
+	opacity:.5;
+}
+#inPopupInfo>img{
+	display:block;
+	float:left;
+	width:20%;
+	margin:5% 0 0 10%;
+	box-shadow: 5px 5px 12px 0 rgba(0,0,0,.5);
+	-webkit-box-shadow: 5px 5px 12px 0 rgba(0,0,0,.5);
+	-moz-box-shadow: 5px 5px 12px 0 rgba(0,0,0,.5);
+}
+#inPopupInfo>label{
+	font-size:130%;
+	font-weight:700;
+	float:left;
+	clear:right;
+	margin: 10% 0 0 5%;
+}
+#inPopupInfo>label>strong{
+	font-weight:900;
+	color:#a00;
+}
+#inPopupInfo>p:nth-child(5){
+	margin-top:15%;
+}
+#inPopupInfo>p>.add_to_basket{
+	margin:0;
+	float:left;
+	padding:8px;
+	margin-left:5%;
+}
+#inPopupInfo>p::first-letter{
+	margin-left:7%;
+	font-size: 140%;
+}
+#inPopupInfo>.popUpDescription{
+	display:block;
+	font-size:120%;
+	font-weight:700;
+	font-family: 'Merriweather', Georgia, 'Times New Roman', Times, serif;
+	line-height:20px;
+	clear:both;
+	width:80%;
+	padding-top:3%;
+	margin:0 auto 10%;
+	text-align:justify;
+}
+@media only screen and (max-width:769px){
+	#inPopupInfo>label{
+		margin-top:8%;
+	}
+}
+@media only screen and (min-width:1260px){
+	#popupInfo.addLoading{
+		background-size:5%;
+	}
+}
+@media only screen and (max-width:420px){
+	#popupInfo.addLoading{
+		background-size:20%;
+	}
+}

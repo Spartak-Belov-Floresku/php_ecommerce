@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<building_data>
+	<building address="home" href="index"/>
+	<building address="about us" href="about" />
+	<building address="contact us" href="contact"/>
+</building_data>
